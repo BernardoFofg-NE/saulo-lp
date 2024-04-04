@@ -128,8 +128,16 @@
     }
 
     .form-contact {
-        padding: 0px;
-        width: auto;
+        padding: 4px;
+        width: 100%;
+    }
+
+    .form-contact form {
+      width: 100%;
+    }
+
+    .mensagem {
+      height: 250px;
     }
   }
   
