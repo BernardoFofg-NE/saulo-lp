@@ -160,3 +160,9 @@
       padding: 4px;
     }
   }
+
+  @media (max-width: 425px) {
+    .header nav li a {
+      font-size: 10px;
+    }
+  }
