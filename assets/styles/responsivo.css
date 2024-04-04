@@ -1,0 +1,141 @@
+@media (max-width: 998px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .hero h1 {
+      font-size: 28px;
+    }
+  
+    .about .title-about,
+    .services .title-services,
+    .noticias .title-noticias,
+    .contact .title-contact {
+      font-size: 20px;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  
+    .header {
+      padding: 20px 10px;
+    }
+  
+    .header nav .menu {
+      text-align: center;
+    }
+  
+    .header nav li a {
+      padding: 10px;
+    }
+  
+    .hero {
+      justify-content: center;
+      height: 300px;
+    }
+  
+    .hero h1 {
+      font-size: 36px;
+      width: 80%;
+      text-align: center;
+    }
+  
+    .about img {
+      width: 70%;
+    }
+  
+    .about .button-about {
+      width: 100%;
+    }
+  
+    .about .button-about button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px 50px;
+      border-radius: 15px;
+    }
+  
+    .info-about,
+    .info-services,
+    .info-contact {
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+  
+    .service-item {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      align-items: center;
+    }
+  
+    .noticias-item,
+    .noticias-item-secundarias {
+      flex-direction: column;
+    }
+  
+    .title-noticias-secundarias {
+      font-size: 16px;
+    }
+  
+    .info-noticias,
+    .info-noticias-secundarias-oldest,
+    .info-noticias-secundarias-newest {
+      position: static;
+    }
+  
+    .text-noticias {
+      width: 100%;
+      text-align: start;
+    }
+    .list-contact {
+      margin: 0 auto;
+    }
+  
+    .info-about .text-about {
+      align-items: center;
+      padding: 15px;
+      gap: 16px;
+    }
+  
+    .services-list {
+      min-width: 50%;
+      max-width: 50%;
+    }
+  
+    .services .services-list ul li {
+      margin: 0px;
+    }
+  
+    .services .title-info-services {
+      padding: 16px 0px;
+    }
+
+    .noticia-item {
+        margin-bottom: 8px;
+    }
+
+    .noticia-item, .noticias-item-secundarias {
+        width: 100%;
+    }
+
+    .noticias-item-secundarias {
+        margin-left: 0px;
+    }
+
+    .form-contact {
+        padding: 0px;
+        width: auto;
+    }
+  }
+  
+  @media (max-width: 1440px) {
+    .info-about img {
+      width: 500px;
+    }
+  }
+  
